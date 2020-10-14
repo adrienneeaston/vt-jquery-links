@@ -1,0 +1,11 @@
+body {
+  font-size: 30px;
+  width: 700px;
+  margin: 100px auto;
+  background-color: whitesmoke;
+  color: black;
+}
+
+a {
+  margin: 50px;
+}
