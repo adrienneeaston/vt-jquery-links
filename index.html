@@ -9,11 +9,14 @@
 <body>
   <nav>
     <ul>
-      <a href="https://www.theoatmeal.com/">same tab</a>
-      <a target='_blank' href="http://hyperboleandahalf.blogspot.com/">new tab</a>
+      <a class="notarget" href="https://www.theoatmeal.com/">same tab</a>
+      <a target="_blank" href="http://hyperboleandahalf.blogspot.com/">new tab</a>
     </ul>
   </nav>
-  <button type="click">Add target</button>
+  <div>
+    <button id="default" type="click">Reset to Default</button>
+    <button id="target" type="click">Add Target</button>
+  </div>
   <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
   <script src="app.js"></script>
 </body>

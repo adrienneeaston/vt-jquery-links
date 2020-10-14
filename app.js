@@ -7,7 +7,11 @@ function hello() {
 hello();
 
 $(document).ready(function() {
-  $("button").click(function() {
-    $("a").attr("target", "_blank");
+  $("#target").on("click", function() {
+    $(".notarget").attr("target", "_blank");
+  });
+
+  $("#default").on("click", function() {
+    $(".notarget").removeAttr("target", "_blank");
   });
 });
