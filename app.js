@@ -19,3 +19,8 @@ let str = '(GMT-05:00) Eastern Time (US & Canada)';
 let myRegex = /(?<=\(GMT).{6}(?=\).*)/;
 let result = str.replace(myRegex, 'Hello');
 console.log(result);
+function process() {
+  let 
+  let sliced = str.match(myRegex);
+  console.log(sliced[0].split(''));
+}
