@@ -14,3 +14,8 @@ function revertLinkBehavior() {
   let selectedLinks = $(".no-target");
   selectedLinks.removeAttr("target", "_blank")
 }
+
+let str = '(GMT-05:00) Eastern Time (US & Canada)';
+let myRegex = /(?<=\(GMT).{6}(?=\).*)/;
+let result = str.replace(myRegex, 'Hello');
+console.log(result);
